@@ -1,0 +1,118 @@
+[0m20:21:09.194266 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5759EE1B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D57AA4F4A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D57A3543E0>]}
+
+
+============================== 20:21:09.251060 | 459b3b92-94a8-4982-b77b-985527af99ed ==============================
+[0m20:21:09.251060 [info ] [MainThread]: Running with dbt=1.12.4
+[0m20:21:09.251060 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\jkriho\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt init data', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m20:21:09.390695 [debug] [MainThread]: Starter project path: C:\Users\jkriho\PythonProjects\dbt-model\.venv\Lib\site-packages\dbt\include\starter_project
+[0m20:21:09.415099 [info ] [MainThread]: Setting up your profile.
+[0m20:21:23.120008 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m20:21:23.120008 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m20:21:23.122022 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m20:22:46.445175 [info ] [MainThread]: Profile data written to C:\Users\jkriho\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m20:22:46.469784 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m20:22:46.469784 [info ] [MainThread]: dbt version: 1.12.4
+[0m20:22:46.469784 [info ] [MainThread]: python version: 3.12.12
+[0m20:22:46.469784 [info ] [MainThread]: python path: C:\Users\jkriho\PythonProjects\dbt-model\.venv\Scripts\python.exe
+[0m20:22:46.469784 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m20:22:46.502688 [info ] [MainThread]: Using profiles dir at C:\Users\jkriho\.dbt
+[0m20:22:46.502688 [info ] [MainThread]: Using profiles.yml file at C:\Users\jkriho\.dbt\profiles.yml
+[0m20:22:46.502688 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\jkriho\PythonProjects\dbt-model\data\dbt_project.yml
+[0m20:22:46.518266 [info ] [MainThread]: adapter type: snowflake
+[0m20:22:46.519302 [info ] [MainThread]: adapter version: 1.12.0
+[0m20:22:46.625775 [info ] [MainThread]: Configuration:
+[0m20:22:46.626820 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:22:46.627510 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:22:46.628517 [info ] [MainThread]: Required dependencies:
+[0m20:22:46.628517 [debug] [MainThread]: Executing "git --help"
+[0m20:22:46.670005 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:22:46.670005 [debug] [MainThread]: STDERR: "b''"
+[0m20:22:46.670005 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:22:46.670005 [info ] [MainThread]: Connection:
+[0m20:22:46.670005 [info ] [MainThread]:   account: RYTTEKH-YA57229
+[0m20:22:46.670005 [info ] [MainThread]:   user: jkriho
+[0m20:22:46.670005 [info ] [MainThread]:   database: SLEEKMART_OMS
+[0m20:22:46.670005 [info ] [MainThread]:   warehouse: renomia_wh
+[0m20:22:46.670005 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m20:22:46.670005 [info ] [MainThread]:   schema: L1_LANDING
+[0m20:22:46.670005 [info ] [MainThread]:   authenticator: None
+[0m20:22:46.670005 [info ] [MainThread]:   oauth_client_id: None
+[0m20:22:46.670005 [info ] [MainThread]:   query_tag: None
+[0m20:22:46.670005 [info ] [MainThread]:   client_session_keep_alive: False
+[0m20:22:46.670005 [info ] [MainThread]:   host: None
+[0m20:22:46.670005 [info ] [MainThread]:   port: None
+[0m20:22:46.670005 [info ] [MainThread]:   proxy_host: None
+[0m20:22:46.681766 [info ] [MainThread]:   proxy_port: None
+[0m20:22:46.682776 [info ] [MainThread]:   protocol: None
+[0m20:22:46.682776 [info ] [MainThread]:   connect_retries: 1
+[0m20:22:46.683778 [info ] [MainThread]:   connect_timeout: None
+[0m20:22:46.683778 [info ] [MainThread]:   retry_on_database_errors: False
+[0m20:22:46.683778 [info ] [MainThread]:   retry_all: False
+[0m20:22:46.684772 [info ] [MainThread]:   insecure_mode: False
+[0m20:22:46.684772 [info ] [MainThread]:   reuse_connections: True
+[0m20:22:46.684772 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m20:22:46.684772 [info ] [MainThread]:   workload_identity_provider: None
+[0m20:22:46.685772 [info ] [MainThread]:   workload_identity_entra_resource: None
+[0m20:22:46.685772 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m20:22:46.686773 [info ] [MainThread]: Registered adapter: snowflake=1.12.0
+[0m20:22:46.990589 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m20:22:47.008417 [debug] [MainThread]: Using snowflake connection "debug"
+[0m20:22:47.008417 [debug] [MainThread]: On debug: select 1 as id
+[0m20:22:47.008417 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:22:48.711651 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.699 seconds
+[0m20:22:48.711651 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:22:48.711651 [info ] [MainThread]: [32mAll checks passed![0m
+[0m20:22:48.711651 [info ] [MainThread]: Your new dbt project "data" was created!
+Initialized new project in C:\Users\jkriho\PythonProjects\dbt-model\data\data
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:22:48.711651 [debug] [MainThread]: Command `dbt init` succeeded at 20:22:48.711651 after 99.88 seconds
+[0m20:22:48.711651 [debug] [MainThread]: Connection 'debug' was left open.
+[0m20:22:48.711651 [debug] [MainThread]: On debug: Close
+[0m20:22:48.869975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D57AF4CF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D57AF4DC70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D57DEEF590>]}
+[0m20:22:48.870982 [debug] [MainThread]: Flushing usage events
+[0m20:22:49.688010 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:08:30.307669 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A56E3FC80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A549AFA40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A56DC4890>]}
+
+
+============================== 21:08:30.316805 | be19aa01-2c5b-4475-8f07-6b2787cb82c5 ==============================
+[0m21:08:30.316805 [info ] [MainThread]: Running with dbt=1.12.4
+[0m21:08:30.317836 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\jkriho\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run-operation print_target_schema', 'log_path': 'logs'}
+[0m21:08:30.318849 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\jkriho\PythonProjects\dbt-model\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:08:30.320848 [debug] [MainThread]: Command `dbt run-operation` failed at 21:08:30.320848 after 0.32 seconds
+[0m21:08:30.321840 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A588134A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A58813740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A5889FC50>]}
+[0m21:08:30.321840 [debug] [MainThread]: Flushing usage events
+[0m21:08:31.074912 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:10:16.149105 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D88089F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D88A81460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D888961E0>]}
+
+
+============================== 21:10:16.164993 | d8e74f27-1525-4da2-ab3d-87bdcb73c5c8 ==============================
+[0m21:10:16.164993 [info ] [MainThread]: Running with dbt=1.12.4
+[0m21:10:16.164993 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\jkriho\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt compile --select some_model', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m21:10:16.164993 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\jkriho\PythonProjects\dbt-model\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:10:16.164993 [debug] [MainThread]: Command `dbt compile` failed at 21:10:16.164993 after 0.35 seconds
+[0m21:10:16.164993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D888F57F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D8A7D7A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D8A7B5FA0>]}
+[0m21:10:16.164993 [debug] [MainThread]: Flushing usage events
+[0m21:10:16.902745 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: stage
+    database: sleekmart_oms
+    schema: l1_landing
+    tables:
+      - name: bank
+        description: "The bank table from the source system"
+        columns:
+          - name: bankid
+            description: "The primary key for this table"
+            data_tests:
+              - unique
+              - not_null
+    
+  - name: intermediate
+  - name: marts
+
+models:
+  - name: stg_bank
+    description: "Models that are used to stage data from the source systems"
+    columns:
+      - name: bankid
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
