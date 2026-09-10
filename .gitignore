@@ -8,6 +8,6 @@ wheels/
 .venv/
 dbt-model/data/target/
 dbt-model/data/dbt_packages/
-dbt-model/data/logs/
+dbt-model/logs/
 # Virtual environments
 .venv
