@@ -17,7 +17,7 @@ sources:
   - name: intermediate
   - name: marts
 
-models:
+models: 
   - name: stg_bank
     description: "Models that are used to stage data from the source systems"
     columns:

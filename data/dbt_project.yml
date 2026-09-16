@@ -32,3 +32,12 @@ models:
   data:
     stage:
       +materialized: view
+<<<<<<< HEAD
+=======
+      +schema: SM
+    intermediate:
+      +materialized: ephemeral
+    marts:
+      +materialized: table
+
+>>>>>>> ea5ce3363a4ac4be5e87ad02d2da7c76e1e4a8f0
