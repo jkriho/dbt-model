@@ -5,3 +5,4 @@ with source as (
 select 
 *
 from source
+where 1=1
