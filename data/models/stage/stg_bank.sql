@@ -1,3 +1,8 @@
+{{ config(
+    materialized='view',
+    schema='xxx'
+) }}
+
 with source as (
     select * from {{ source('stage', 'bank') }}
 )
